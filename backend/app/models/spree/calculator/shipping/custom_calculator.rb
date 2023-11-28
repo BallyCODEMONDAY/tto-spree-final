@@ -12,7 +12,7 @@ module Spree
         shipping_cost
       end
 
-      def cost_by_weight(total_weight)
+      private def cost_by_weight(total_weight)
         case total_weight
         when 0..9.99
           100
