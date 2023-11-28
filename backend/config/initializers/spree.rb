@@ -20,4 +20,6 @@ end
 Spree.user_class = 'Spree::User'
 
 config = Rails.application.config
-# config.spree.calculators.shipping_methods << Spree::Calculator::Shipping::CustomCalculator
+config.after_initialize do
+  config.spree.calculators.shipping_methods << Spree::Calculator::Shipping::CustomCalculator
+end
