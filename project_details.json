@@ -1,0 +1,29 @@
+[
+  {
+    "path": "backend",
+    "buildOptions": {
+      "encoding": "utf-8",
+      "stdio": "inherit",
+      "shell": true
+    },
+    "template": {
+      "name": "Spree 4.7 (hybrid)",
+      "runScriptLocalPath": "run-backend",
+      "dependencies": {
+        "docker": ">= 20.0",
+        "docker-compose": ">= 2.0",
+        "ruby": "= 3.2.2"
+      }
+    }
+  },
+  {
+    "path": "integration",
+    "buildOptions": {
+      "stdio": "inherit",
+      "shell": true
+    },
+    "template": {
+      "name": "Rails storefront"
+    }
+  }
+]
