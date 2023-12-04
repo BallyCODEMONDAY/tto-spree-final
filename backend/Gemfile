@@ -109,3 +109,5 @@ gem 'jsbundling-rails'
 gem 'turbo-rails'
 
 gem 'webdrivers'
+
+gem 'pry'
