@@ -763,6 +763,7 @@ DEPENDENCIES
   memory_profiler
   oj
   pg
+  pry
   puma
   rack-cache
   rack-cors
